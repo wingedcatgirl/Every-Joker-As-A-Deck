@@ -1,0 +1,16 @@
+{
+	"id": "JokerDecks",
+	"name": "Every Joker As A Deck",
+	"display_name": "Joker Decks",
+	"author": ["wingedcatgirl"],
+	"description": "Turn every vanilla Joker into a deck",
+	"prefix": "jokerdecks",
+	"main_file": "JokerDecks.lua",
+	"priority": 5,
+	"badge_colour": "CA7CA7",
+	"badge_text_colour": "FFFFFF",
+	"version": "0.1.0~BETA-20250821",
+	"dependencies": [
+			"Steamodded(>=1.0.0~BETA-0711a)"
+	]
+}
