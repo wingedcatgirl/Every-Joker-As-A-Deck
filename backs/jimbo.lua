@@ -29,7 +29,7 @@ SMODS.Back{
         }
     end,
     check_for_unlock = function (self, args)
-        if args.type == 'win_custom' and SMODS.find_card(self.config.joker, true) then
+        if args.type == 'win_custom' and next(SMODS.find_card(self.config.joker, true)) then
             unlock_card(self)
         end
     end,
